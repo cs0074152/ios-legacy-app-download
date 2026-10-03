@@ -1,0 +1,4 @@
+interface:
+  display_name: "iOS 历史版本下载"
+  short_description: "查询 iOS App 历史版本，核对版本标识，并用 ipatool 下载可获取的 IPA"
+  default_prompt: "使用 $ios-legacy-app-download 帮我查找并核对一个 iOS App 的历史版本，让我在本机终端完成账号登录。"
