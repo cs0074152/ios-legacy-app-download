@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="180" viewBox="0 0 1000 180" role="img" aria-labelledby="title"><title id="title">确认应用、定位版本、下载 IPA 三个步骤</title>
+<rect width="1000" height="180" rx="18" fill="#F5F4EC"/>
+<g font-family="Microsoft YaHei,PingFang SC,sans-serif"><circle cx="66" cy="64" r="20" fill="#263C2D"/><text x="66" y="69" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="14">01</text><text x="102" y="72" fill="#263C2D" font-size="23" font-weight="700">确认应用</text><text x="46" y="114" fill="#74806F" font-size="15">名称 · App ID · 商店地区</text>
+<circle cx="400" cy="64" r="20" fill="#263C2D"/><text x="400" y="69" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="14">02</text><text x="436" y="72" fill="#263C2D" font-size="23" font-weight="700">定位版本</text><text x="380" y="114" fill="#74806F" font-size="15">历史记录 · 版本 ID · 元数据</text>
+<circle cx="734" cy="64" r="20" fill="#263C2D"/><text x="734" y="69" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="14">03</text><text x="770" y="72" fill="#263C2D" font-size="23" font-weight="700">下载 IPA</text><text x="714" y="114" fill="#74806F" font-size="15">账号许可 · 本地下载 · 文件核对</text></g>
+<path d="M300 83h29m-8-7 8 7-8 7M634 83h29m-8-7 8 7-8 7" stroke="#B8C0AF" fill="none" stroke-width="2" stroke-linecap="round"/>
+</svg>
