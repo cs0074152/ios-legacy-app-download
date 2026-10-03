@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="基于 ipatool 的 iOS 历史版本下载 Skill 与中文指南。查询应用、核对版本 ID，找到仍可获取的那个版本。">
+  <meta name="theme-color" content="#F5F4EE">
+  <meta property="og:title" content="iOS Legacy — 找回你熟悉的那个版本">
+  <meta property="og:description" content="一份清晰的 Agent Skill 与中文指南，让历史版本更容易被找到。">
+  <title>iOS Legacy · 找回你熟悉的那个版本</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="iOS Legacy 首页"><img src="assets/icon.svg" alt="" width="36" height="36"><span>iOS Legacy<span class="brand-note">A version worth keeping.</span></span></a>
+    <nav aria-label="主导航"><a href="#features">项目特点</a><a href="#workflow">使用流程</a><a href="#faq">常见问题</a><a class="repo-link" href="https://github.com/cs0074152/ios-legacy-app-download">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> A LITTLE HISTORY. A FAMILIAR EXPERIENCE.</p>
+        <h1 id="hero-title">找回你熟悉的<br>那个版本<span class="orange">。</span></h1>
+        <p class="hero-description">也许是习惯的旧界面，也许是某次更新前的功能。<br class="desktop-break">从查找应用到核对版本，让那段熟悉的体验，有迹可循。</p>
+        <div class="hero-actions"><a class="button primary" href="#start">开始使用 <span aria-hidden="true">↗</span></a><a class="button text-button" href="#install">安装 Agent Skill <span aria-hidden="true">→</span></a></div>
+        <div class="hero-meta"><span><span class="mini-icon" aria-hidden="true">◈</span> Agent Skill + 中文指南</span><span><span class="mini-icon" aria-hidden="true">⌘</span> Powered by ipatool</span></div>
+      </div>
+      <div class="archive-visual" role="img" aria-label="历史版本档案卡片示意，每个版本都有它的位置">
+        <div class="back-card back-one"></div><div class="back-card back-two"></div>
+        <div class="archive-card">
+          <div class="card-art"><span class="art-label">THE VERSION ARCHIVE</span><svg viewBox="0 0 180 180" class="clock-art" aria-hidden="true"><circle cx="90" cy="90" r="63"/><circle cx="90" cy="90" r="47" class="inner-ring"/><path d="M45 65a51 51 0 1 1-5 41M45 46v21h21M90 57v34l22 14"/></svg><span class="art-mark">↙  REVISIT WHAT YOU LOVED</span></div>
+          <div class="archive-copy"><p class="card-tag">A FAMILIAR EXPERIENCE</p><h2>Every version<br>has a story.</h2><p>每个版本，都有它的位置。</p><div class="card-footer"><span>FIND · VERIFY · DOWNLOAD</span><span class="round-arrow" aria-hidden="true">↗</span></div></div>
+        </div>
+        <span class="floating-note"><span aria-hidden="true">✳</span> 留住熟悉的体验</span>
+        <span class="visual-caption">一份指南，连接你与应用的历史。</span>
+      </div>
+    </section>
+    <div class="support-strip wrap"><span class="strip-label">从一个名字，到一个明确的版本</span><div><span>Windows</span><span>macOS</span><span>Linux</span><span class="strip-divider">/</span><span>你的账号 · 本机操作</span></div></div>
+    <section class="section wrap" id="features" aria-labelledby="features-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / WHY LEGACY</p><h2 id="features-title">把零散的步骤，<br>整理成清晰的路径。</h2></div><p>基于上游 ipatool 的查询与下载能力，<br>为你补齐版本定位、结果核对和操作说明。</p></div>
+      <div class="feature-grid">
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">⌕</span><span class="feature-index">01</span><h3>从名称，找到应用</h3><p>核对 App ID、Bundle ID 与商店地区，让每一步都从正确的应用开始。</p><span class="feature-foot">IDENTIFY THE APP</span></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">◷</span><span class="feature-index">02</span><h3>从线索，定位版本</h3><p>用版本号或大致更新时间缩小范围，再核对历史版本 ID 与元数据。</p><span class="feature-foot">FIND THE VERSION</span></article>
+        <article class="feature"><span class="feature-symbol" aria-hidden="true">↓</span><span class="feature-index">03</span><h3>从查询，到本地文件</h3><p>使用自己的账号下载可获取的 IPA，检查应用身份、版本号与系统要求。</p><span class="feature-foot">KEEP A LOCAL COPY</span></article>
+      </div>
+    </section>
+    <section class="workflow-section" id="workflow" aria-labelledby="workflow-title"><div class="wrap workflow-layout">
+      <div><p class="eyebrow">02 / THE WORKFLOW</p><h2 id="workflow-title">三步，走向<br>那个熟悉的版本。</h2><p class="section-description">你可以跟着指南操作，也可以让支持<br class="desktop-break"> SKILL.md 的 Agent 协助查询与整理。</p><a class="inline-link" href="https://github.com/cs0074152/ios-legacy-app-download/blob/main/skills/ios-legacy-app-download/references/workflow.md">阅读完整操作指南 <span aria-hidden="true">↗</span></a><p class="small-note">历史版本是否可下载，取决于 Apple 服务、<br>账号许可及该版本是否仍可获取。</p></div>
+      <div class="steps"><article><span class="step-number">01</span><div><h3>确认应用身份</h3><p>确认 App 名称、ID 和目标商店地区，避免同名应用带来的误选。</p><code>ipatool search "应用名称" --limit 5</code></div></article><article><span class="step-number">02</span><div><h3>核对目标版本</h3><p>获取候选版本 ID，再查询版本元数据。显示版本号与下载所需的 ID 分开核对。</p><code>list-versions → get-version-metadata</code></div></article><article><span class="step-number">03</span><div><h3>下载并检查 IPA</h3><p>下载到本地后，核对应用身份、版本号与最低系统要求，再评估安装方式。</p><code>download → Info.plist</code></div></article></div>
+    </div></section>
+    <section class="section wrap" id="start" aria-labelledby="start-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / GET STARTED</p><h2 id="start-title">从这里开始。</h2></div><p>先准备工具，在本机终端完成登录。<br>密码与验证码，始终由你自己输入。</p></div>
+      <div class="start-grid"><div class="start-info"><span class="pill">STEP ZERO · 准备工具</span><h3>下载上游 ipatool</h3><p>选择与你的系统和架构匹配的构建。解压后，将工具加入 PATH，或使用完整路径运行。</p><a class="button outline" href="https://github.com/majd/ipatool/releases">前往官方 Releases <span aria-hidden="true">↗</span></a><p class="helper">macOS 也可使用 <code>brew install ipatool</code>。</p><div class="privacy-note"><span aria-hidden="true">◇</span><p>请在自己的交互式终端输入账号密码、2FA 码与 keychain 密码短语。不要粘贴到聊天或公开反馈中。</p></div></div>
+      <div class="terminal"><div class="terminal-top"><div class="os-tabs" role="tablist" aria-label="选择操作系统"><button type="button" role="tab" id="tab-windows" aria-selected="true" aria-controls="command-panel" data-os="windows" tabindex="0">Windows</button><button type="button" role="tab" id="tab-macos" aria-selected="false" aria-controls="command-panel" data-os="macos" tabindex="-1">macOS / Linux</button></div><button class="copy-button" type="button" data-copy="commands" aria-label="复制当前系统的示例命令">复制命令 <span aria-hidden="true">⧉</span></button></div><div id="command-panel" role="tabpanel" aria-labelledby="tab-windows" tabindex="0"><p class="terminal-comment"># 在本机终端操作 · 替换示例参数</p><pre><code id="command-code">./ipatool.exe auth login --email "your-apple-account@example.com"
+
+./ipatool.exe search "应用名称" --limit 5
+./ipatool.exe list-versions --app-id APP_ID
+./ipatool.exe get-version-metadata --app-id APP_ID --external-version-id VERSION_ID
+
+./ipatool.exe download --app-id APP_ID --external-version-id VERSION_ID --output "./app-legacy.ipa"</code></pre></div><div class="terminal-bottom"><span class="terminal-dot"></span>版本号 ≠ VERSION_ID · 先核对，再下载</div></div></div>
+      <p class="source-note">命令按上游 v2.6.0 源码核对，未使用真实 Apple 账号验证下载；以本机版本和命令帮助为准。 <a href="https://github.com/majd/ipatool/tree/v2.6.0/cmd">查看来源 ↗</a></p>
+    </section>
+    <section class="install-section wrap" id="install" aria-labelledby="install-title"><div class="install-copy"><p class="eyebrow">04 / LET YOUR AGENT HELP</p><h2 id="install-title">把这份指南，<br>交给你的 Agent。</h2><p>下载仓库后，将整个 <code>skills/ios-legacy-app-download</code><br class="desktop-break"> 文件夹复制到所用 Agent 支持的技能目录。</p><a class="inline-link" href="https://github.com/cs0074152/ios-legacy-app-download#作为-agent-skill-使用">查看 Skill 文件与加载说明 <span aria-hidden="true">↗</span></a></div><div class="prompt-card"><div class="prompt-heading"><span><span class="prompt-spark" aria-hidden="true">✳</span> 一个好的开始</span><button class="copy-button light" type="button" data-copy="prompt" aria-label="复制 Agent 使用提示">复制提示 ⧉</button></div><p id="agent-prompt">使用 $ios-legacy-app-download 帮我查找一个 iOS App 的历史版本。<br><br>应用名称：……<br>商店地区：……<br>目标版本号或大致更新时间：……<br><br>请先核对可用版本，并让我在本机终端完成账号登录。</p><div class="prompt-footer">应用名称 + 商店地区 + 版本线索</div></div></section>
+    <section class="section wrap faq-section" id="faq" aria-labelledby="faq-title"><div class="faq-intro"><p class="eyebrow">05 / GOOD TO KNOW</p><h2 id="faq-title">开始前，<br>你可能想知道。</h2><p>明确能力，也说明边界。<br>让每一步都有可靠的预期。</p></div><div class="faq-list">
+      <details open><summary>这是一个一键下载软件吗？<span aria-hidden="true">+</span></summary><p>这是一个 Agent Skill 与中文使用指南，页面用于介绍项目。查询和下载由上游 ipatool 完成，没有内置桌面客户端或托管下载服务。</p></details>
+      <details><summary>所有 App 的历史版本都能下载吗？<span aria-hidden="true">+</span></summary><p>不能保证。应用是否仍提供下载、账号是否拥有许可，以及商店地区和 Apple 服务状态都会影响结果。网页有更新记录，也不代表该版本一定可下载。</p></details>
+      <details><summary>下载的 IPA 可以直接安装吗？<span aria-hidden="true">+</span></summary><p>下载成功与安装成功需要分别验证。包通常带 FairPlay 加密，普通重签不会自动解密；账号许可、设备系统、架构和安装工具支持情况也会影响结果。请先备份并确认安装方案，再决定是否删除当前版本。</p></details>
+      <details><summary>我的账号信息会发送到哪里？<span aria-hidden="true">+</span></summary><p>本仓库没有收集账号的服务端，介绍页面也不接收账号信息。实际登录由 ipatool 与 Apple 通信，并按上游实现保存本地会话。密码、验证码和会话文件都应保密。</p></details>
+      <details><summary>只记得大致时间，可以开始查吗？<span aria-hidden="true">+</span></summary><p>可以用目标地区 App Store 页面展示的更新记录缩小范围，再核对版本元数据。网页记录可能不完整，日期来源也需要交叉核对。</p></details>
+    </div></section>
+    <section class="closing wrap"><div><p class="eyebrow">A VERSION WORTH KEEPING.</p><h2>从一个线索开始，<br>找到那个值得保留的版本。</h2></div><a class="button primary" href="https://github.com/cs0074152/ios-legacy-app-download">在 GitHub 查看项目 <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#"><img src="assets/icon.svg" alt="" width="28" height="28"><span>iOS Legacy</span></a><p>独立项目 · 基于 ipatool · 与 Apple 无隶属关系</p><a href="https://github.com/majd/ipatool">感谢 ipatool <span aria-hidden="true">↗</span></a></footer>
+  <div class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
