@@ -1,0 +1,21 @@
+# Local credentials and sessions
+.env
+.env.*
+!.env.example
+.ipatool/
+ipatool-session/
+cookies
+cookies.json
+account
+*.keychain
+*.keychain-db
+
+# App packages and local artifacts
+*.ipa
+*.zip
+*.tar.gz
+node_modules/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.log
