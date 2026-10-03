@@ -1,0 +1,16 @@
+name: 改进建议
+description: 建议文档、Skill 或介绍页面的改进。
+title: "[Idea] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 希望解决什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你的建议
+    validations:
+      required: true
