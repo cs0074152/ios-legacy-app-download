@@ -4,14 +4,17 @@
 
 <h1 align="center">iOS Legacy App Download</h1>
 
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
 <p align="center"><strong>让 iOS App 的历史版本，更容易被找到。</strong></p>
 <p align="center">一份基于 ipatool 的 Agent Skill 与中文使用指南。<br>从查找应用、定位版本，到下载 IPA，把零散的步骤串成清晰的流程。</p>
+<p align="center"><strong>Tell your Agent which iOS app version you want.</strong><br>An Agent Skill powered by ipatool to identify apps, verify available older versions, and download IPA files.<br>Set up the Skill and ipatool, sign in locally, then start with a natural-language request.<br><a href="README.en.md">Read the full English introduction and guide →</a></p>
 
 <p align="center">
   <img alt="类型：Agent Skill" src="https://img.shields.io/badge/Agent-Skill-252a26?style=flat-square">
   <img alt="工具：ipatool" src="https://img.shields.io/badge/Powered_by-ipatool-e77942?style=flat-square">
   <img alt="平台：Windows / macOS / Linux" src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-57745c?style=flat-square">
-  <img alt="文档：中文" src="https://img.shields.io/badge/Docs-简体中文-57745c?style=flat-square">
+  <img alt="文档：简体中文 / English" src="https://img.shields.io/badge/Docs-简体中文%20%7C%20English-57745c?style=flat-square">
 </p>
 
 <p align="center">
@@ -171,6 +174,7 @@ Skill 不包含账号、不内置 ipatool，也不会因为安装而自动执行
 ```text
 .
 ├── README.md                         GitHub 项目首页
+├── README.en.md                      英文介绍与使用说明
 ├── docs/                             静态介绍页面与展示素材
 ├── skills/ios-legacy-app-download/    可独立复制的 Skill
 ├── .github/ISSUE_TEMPLATE/            问题反馈与改进建议模板
